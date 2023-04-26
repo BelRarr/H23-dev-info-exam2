@@ -1,2 +1,58 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
 
+
+#commit intitial
+---------------------------------------------------------
+            git init
+            git commit -m "commit initial"
+*********************************************************
+
+# ajout classe Cheval
+---------------------------------------------------------
+           git add Cheval.cs
+           git commit -m "Ajout de la classe Cheval"
+*********************************************************
+
+#Creation de la branche dev
+---------------------------------------------------------
+                 git branch dev
+*********************************************************
+
+#ajout classe Animal
+---------------------------------------------------------
+                git checkout dev
+                git add Animal.cs
+                git commit -m "Ajout de la classe Animal"
+**********************************************************
+
+#ajout Classe Voiture
+---------------------------------------------------------
+                 git checkout master
+                 git add Voiture.cs
+                 git commit -m "Ajout de la classe Voiture"
+**********************************************************
+
+#maj Classe Cheval
+--------------------------------------------------------------
+              git add Cheval.cs
+              git commit -m "maj de cheval.cs"
+***************************************************************
+
+#maj Classe Animal
+-----------------------------------------------------------------
+                 git checkout dev
+                 git add Animal.cs
+                 git commit -m "maj de Animal.cs"
+******************************************************************
+
+#fusionner dev avec master
+----------------------------------------------------------------
+               git checkout master
+               git merge dev
+**************************************************************
+
+# suppression de la branche dev
+------------------------------------------------------------
+            git branch -d dev
+**************************************************************
+
