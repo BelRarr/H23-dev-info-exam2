@@ -2,7 +2,8 @@
 # énoncé 1:
 Supprimer la branche « feature/footer » sachant que celle-ci n’a pas été préalablement fusionnée.
 
-# commande(s):
+# commande(s): 	git checkout master
+			git branch feature/footer
 ```
 
 ```
@@ -10,7 +11,7 @@ Supprimer la branche « feature/footer » sachant que celle-ci n’a pas été p
 # énoncé 2:
 Lister toutes les branches, qu’elles soient locales ou distantes.
 
-# commande(s):
+# commande(s): 	git list -a
 ```
 
 ```
@@ -20,7 +21,7 @@ Lister toutes les branches, qu’elles soient locales ou distantes.
 Corriger le commentaire du dernier commit. Le remplacer par « configuration du sticky header ».
 
 
-# commande(s):
+# commande(s): git commit --amend --only -m « configuration du sticky header »
 ```
 
 ```
@@ -28,7 +29,7 @@ Corriger le commentaire du dernier commit. Le remplacer par « configuration du 
 # énoncé 4:
 Pousser la branche « hotfix/stackoverflow » vers GitHub.
 
-# commande(s):
+# commande(s): git push --set -upstream origin hotfix/stackoverflow
 ```
 
 ```
@@ -36,7 +37,7 @@ Pousser la branche « hotfix/stackoverflow » vers GitHub.
 # énoncé 5:
 Redéfinir l’adresse courriel pour le dépôt local par « obiwan.kenobi@lucasfilms.net ».
 
-# commande(s):
+# commande(s): git config user.email « obiwan.kenobi@lucasfilms.net »
 ```
 
 ```
