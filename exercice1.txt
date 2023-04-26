@@ -6,7 +6,7 @@ git commit -m "ajout classe Animal"
 
 git commit -m "ajout classe voiture"
 
-git reset "<id du commit précédent>"
+git reset --hard HEAD~1
 
 git branch dev
 git checkout dev
