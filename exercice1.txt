@@ -1,2 +1,15 @@
-insÃ©rez les commandes relatives Ã  l'exercice 1 ci-dessous:
+insérez les commandes relatives à l'exercice 1 ci-dessous :
 
+git commit -m 'ajout classe Cheval'
+git commit -m 'ajout classe Animal'
+git commit -m 'ajout classe Voiture'
+git checkout HEAD~1
+git branch dev
+git checkout dev
+git commit -m 'maj classe Cheval'
+git commit -m 'maj classe Animal'
+git checkout master
+git merge dev
+git log
+git branch -d dev
+git branch
