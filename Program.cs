@@ -27,6 +27,5 @@ namespace H23_Dev_Info_Examen2
         Console.WriteLine(moyenne);
     }
 }
-
     }
 }
