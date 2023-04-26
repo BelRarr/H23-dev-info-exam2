@@ -1,2 +1,24 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
 
+git commit -m "ajout classe cheval"
+
+git commit -m "ajout classe Animal"
+
+git commit -m "ajout classe voiture"
+
+git reset --hard HEAD~1
+
+git branch dev
+git checkout dev
+
+git commit -m "maj classe Cheval"
+
+git commit -m "naj classe Animal"
+
+get checkout master
+git merge dev
+
+git branch -d dev
+
+
+
