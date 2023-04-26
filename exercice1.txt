@@ -1,2 +1,15 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
+git add .
+git commit -m 'commit initial'
+git commit -m 'ajout classe Cheval'
+git commit -m 'ajout classe Animal'
+git commit -m 'ajout classe Voiture'
+git checkout <id du dernier commit>
+git branch dev
+git checkout dev
+git commit -m 'maj classe Cheval'
+git commit -m 'maj classe Animal'
+git checkout master
+git merge dev -m 'fusionner dev avec master'
+git branch -d dev
 
