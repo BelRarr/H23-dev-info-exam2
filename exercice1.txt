@@ -1,4 +1,4 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous: git init, git add Cheval.cs, git commit, git add Animal.cs,git commit, git add Voiture.cs,git commit,
-
+git branch dev, git pull Cheval Animal.
 git checkout master id commit, git merge dev,  git bracnh -d dev
 
