@@ -1,2 +1,16 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
+• git commit -m "commit initial"
+• git add Cheval.cs
+• git add Animal.cs
+• git add Voiture.cs
+• git checkout<id du commit précédent>
+• git checkout -b dev
+• git add Cheval.cs
+• git commit -m "Mise à jour de la classe Cheval"
+• git add Animal.cs
+• git commit -m "Mise à jour de la classe Animal"
+• git checkout master 
+• git merge dev 
+• git branch -d dev
+
 
