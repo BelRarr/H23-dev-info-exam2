@@ -4,7 +4,7 @@ Supprimer la branche « feature/footer » sachant que celle-ci n’a pas été p
 
 # commande(s):
 ```
-
+git branch -d feature/footer
 ```
 
 # énoncé 2:
@@ -12,6 +12,7 @@ Lister toutes les branches, qu’elles soient locales ou distantes.
 
 # commande(s):
 ```
+git branch -a
 
 ```
 
@@ -22,6 +23,7 @@ Corriger le commentaire du dernier commit. Le remplacer par « configuration du 
 
 # commande(s):
 ```
+git commit --amend -m "configuration du sticky header"
 
 ```
 
@@ -30,6 +32,7 @@ Pousser la branche « hotfix/stackoverflow » vers GitHub.
 
 # commande(s):
 ```
+git push origin hotfix/stackoverflow
 
 ```
 
@@ -38,5 +41,6 @@ Redéfinir l’adresse courriel pour le dépôt local par « obiwan.kenobi@lucas
 
 # commande(s):
 ```
+git config user.email "obiwan.kenobi@lucasfilms.net"
 
 ```

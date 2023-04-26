@@ -1,2 +1,54 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
+git checkout master
+git log
+
+git add Cheval.cs 
+
+git commit -m "ajout de la classe Cheval"
+
+git add Animal.cs
+
+git commit -m "ajout de la classe Animal"
+
+git add Voiture.cs
+
+git commit -m "ajout de la classe Voiture"
+
+git checkout"id-commit-Animal"
+
+
+git checkout dev "id-commit-Animal"
+
+
+git add cheval.cs
+
+git commit -m "maj classe cheval"
+
+git add Animal.cs
+
+git commit -m "maj classe Animal"
+
+git checkout master
+
+git merge dev
+
+git add .
+git commit -m "fusionner dev avec master"
+
+git checkout dev
+git branch -d dev
+git commit -m
+
+
+git push --set-upstream origin master
+
+
+
+
+
+
+
+
+
+
 
