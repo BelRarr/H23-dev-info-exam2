@@ -1,2 +1,63 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
 
+git add .
+
+git commit -m "Mon premier commit"
+---------------
+git status
+
+git add Cheval.cs
+
+git commit -m "Rajout de la classe Cheval"
+----------------------
+git status
+
+git add Animal.cs
+
+git commit -m "Rajout de la classe Animal"
+-----------------------------
+git status
+
+git add Voiture.cs
+
+git commit -m "Rajout de la classe Voiture"
+------------------------------------
+git reset --hard HEAD~1
+
+git status
+-----------------------------------
+git branch dev idCommitPrecedent
+
+ git branch
+
+git checkout dev
+
+git branch
+
+git status (après maj de la classe cheval.cs en se positionnant sur branch dev)
+
+git add Cheval.cs
+
+git commit -m " dev - mise ajour de la classe Cheval"
+---------------------------------------------
+git branch
+
+git status (après maj de la classe Animal.cs en se positionnant sur branch dev)
+
+git add Animal.cs
+
+git commit -m " dev - mise ajour de la classe Animal"
+------------------------------------------------------
+git chekout main
+
+git branch
+
+git merge dev
+
+git branch -d dev
+---------------------------------------------------------------
+
+
+
+
+ 
