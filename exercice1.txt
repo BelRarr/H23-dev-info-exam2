@@ -1,2 +1,35 @@
 insérez les commandes relatives à l'exercice 1 ci-dessous:
 
+    git init
+            git commit -m "commit initial"
+
+         git add Cheval.cs
+         git commit -m "Ajout de la classe Cheval"
+
+
+         git checkout dev
+         git add Animal.cs
+         git commit -m "Ajout de la classe Animal"
+
+
+         
+                 git checkout master
+                 git add Voiture.cs
+                 git commit -m "Ajout de la classe Voiture"
+
+
+          git add Cheval.cs
+          git commit -m "modification de la classe cheval.cs"
+
+
+            git checkout dev
+            git add Animal.cs
+            git commit -m "modification de la classe Animal.cs"
+
+
+          git checkout master
+          git merge dev
+
+
+        git branch -d dev
+
